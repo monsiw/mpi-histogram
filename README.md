@@ -6,4 +6,8 @@ STAT. Process P sends threshold values from table A to the sorting processes so 
 of x values to SEG[1]. After sending the last value, process P sends an end signal and receives results from the STAT process. 
 Each sorting process checks whether the received x value is less than its threshold value. If so, it sends a signal to the STAT 
 process, otherwise it passes x to the next SEG process. The STAT process counts the received signals in the H table, which it 
-finally sends to the P process.
+finally sends to the P process.<br><br>
+<p align="center">
+<img src="https://i.ibb.co/D9Z6SkK/mpi.png" alt="Alt Text" width="600" height="400"/>
+</p>
+
